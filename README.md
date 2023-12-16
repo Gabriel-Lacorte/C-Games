@@ -15,6 +15,17 @@ To compile the game, use the following command:
 gcc snake.c -o snake -lncurses
 ```
 
+### 2. Pong 🏓
+
+Pong is a game where two players control rackets with the aim of hitting a ball. If a player fails to hit the ball, the opponent earns a point. The goal is to score as many points as possible.
+
+[![asciicast](https://asciinema.org/a/NC9jqDnfAw7kI2IOfpX7KiR86.svg)](https://asciinema.org/a/NC9jqDnfAw7kI2IOfpX7KiR86)
+
+To compile the game, use the following command:
+```bash
+gcc pong.c -o pong -lncurses
+```
+
 ---
 For most games, you may need to install the 'ncurses' library. 
 Here are the commands to install 'ncurses' on different Linux distributions: 
